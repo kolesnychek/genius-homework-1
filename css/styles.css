@@ -1,0 +1,153 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2'); 
+}
+
+
+:root {
+    --color-primary-white:#FFFFFF;
+    --color-primary-light-blue: #2B7FFF;
+    --color-primary-dark-blue: #011C44;
+    --color-secondary-dark-grey: #4A4A4A;
+    --color-secondary-light-grey: #747272;
+    --color-secondary-blue: #011F4A;
+    --color-secondary-yellow: #FFD02B;
+}
+
+body {
+    color: var(--color-primary-dark-blue);
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-title {
+    font-family: 'Play', 'sans-serif';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.16;
+    color: var(--color-primary-dark-blue);
+}
+
+.section-title .accent {
+    color: var(--color-primary-light-blue);
+}
+
+address {
+    font-style: normal;
+}
+
+/* Hero section */
+.main-link {
+    text-decoration: none;
+    color: var(--color-primary-dark-blue);
+}
+
+.main-link:hover {
+    font-size: 700;
+    color: var(--color-primary-light-blue);
+}
+
+.hero-title {
+    font-family: 'Play', 'sans-serif';
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;
+    color: var(--color-primary-light-blue);
+}
+
+.main-button {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-light-blue);
+    border-radius: 32px;
+    border: 2px solid var(--color-primary-light-blue);
+    font-weight: 600;
+    cursor: pointer;
+    width: 219px;
+    height: 53px;
+}
+
+.main-button:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark-blue);
+}
+
+.hero-second-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* Reincarnate section */
+.reincarnate-text {
+    font-size: 22px;
+    line-height: 1.72;
+}
+
+.reincarnate-text .bolt-accent {
+    font-weight: 600;
+}
+
+/* Why we section  */
+.why-we-text {
+    line-height: 1.3;
+}
+
+/* Our procedures */
+.procedures-text {
+    color: var(--color-primary-white);
+    font-size: 22px;
+}
+
+.contacts-text {
+    color: var(--color-primary-white);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.contacts-text .contacts-text-accent {
+    color: var(--color-primary-light-blue);
+}
+
+/* Footer */
+.address-link {
+    font-size: 16px;
+    color: var(--color-primary-white);
+}
+
+.address-copyright {
+    font-size: 13px;
+    color: var(--color-secondary-light-grey);
+}
